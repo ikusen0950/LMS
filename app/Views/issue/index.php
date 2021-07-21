@@ -611,7 +611,7 @@
             },
             dataType: "json",
             success: function(res) {
-               console.log(res)
+
                $('#message_operation').html(`<div class="alert alert-success">${res.success}</div>`)
                setTimeout(() => {
                   $('#message_operation').html('')
